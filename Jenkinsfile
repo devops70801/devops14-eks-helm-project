@@ -37,8 +37,8 @@ pipeline{
             steps{
                 sh ''' cd springboot/java-springboot
                        bash Build.sh   
-                   #docker build -t malleshdevops/createat-devops-task:java-spring-v1 .
-                   #docker push malleshdevops/createat-devops-task:java-spring-v1
+                   #docker build -t devops70801/devops14-eks-helm-project:java-spring-v1 .
+                   #docker push devops70801/devops14-eks-helm-project:java-spring-v1
                    '''
             }
         }
